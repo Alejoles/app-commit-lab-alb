@@ -4,6 +4,7 @@ set -euo pipefail
 : "${INSTANCE_ID:?}" "${AZ:?}" "${PRIVATE_IP:?}" "${INSTANCE_TYPE:?}" "${COMMIT:?}"
 
 WEB_ROOT="${WEB_ROOT:-/usr/share/nginx/html}"
+APP_DIR="/opt/alb-asg-lab"
 SRC="$(cd "$(dirname "$0")/../web" && pwd)"
 
 mkdir -p "$WEB_ROOT"
