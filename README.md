@@ -27,6 +27,9 @@ alb-asg-lab/
 ├── web/index.html          # Página con marcadores __INSTANCE_ID__, __AZ__, etc.
 ├── scripts/render.sh       # Reemplaza los marcadores y publica los archivos
 ├── userdata/userdata.sh    # User Data que se pega en el Launch Template
+├── docs/
+|    ├── Arquitectura.png   # Diagrama de Arquitectura
+|    ├── Entregable.pdf     # PDF que indica todo lo que había del taller, no incluye enunciados del taller.
 └── README.md
 
 ```
